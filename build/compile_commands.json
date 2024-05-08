@@ -1,0 +1,14 @@
+[
+{
+  "directory": "C:/code/cmake/liuhaohan_hw1/build",
+  "command": "D:\\mingw64\\bin\\gcc.exe  @CMakeFiles/main.dir/includes_C.rsp -g -o CMakeFiles\\main.dir\\src\\algebra.obj -c C:\\code\\cmake\\liuhaohan_hw1\\src\\algebra.c",
+  "file": "C:/code/cmake/liuhaohan_hw1/src/algebra.c",
+  "output": "CMakeFiles/main.dir/src/algebra.obj"
+},
+{
+  "directory": "C:/code/cmake/liuhaohan_hw1/build",
+  "command": "D:\\mingw64\\bin\\gcc.exe  @CMakeFiles/main.dir/includes_C.rsp -g -o CMakeFiles\\main.dir\\src\\main.obj -c C:\\code\\cmake\\liuhaohan_hw1\\src\\main.c",
+  "file": "C:/code/cmake/liuhaohan_hw1/src/main.c",
+  "output": "CMakeFiles/main.dir/src/main.obj"
+}
+]
