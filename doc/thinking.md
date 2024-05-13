@@ -2,7 +2,7 @@
  * @Author: test 3402502077@qq.com
  * @Date: 2024-05-08 23:31:33
  * @LastEditors: test 3402502077@qq.com
- * @LastEditTime: 2024-05-13 14:06:48
+ * @LastEditTime: 2024-05-13 14:10:02
  * @FilePath: \liuhaohan_hw1\doc\thinking.md
  * @Description: 这是默认设置,请设置`customMade`, 打开koroFileHeader查看配置 进行设置: https://github.com/OBKoro1/koro1FileHeader/wiki/%E9%85%8D%E7%BD%AE
 -->
@@ -80,7 +80,7 @@ $$ R_j=R_j-\dfrac{a_{ji}}{a_{ii}}\times R_i $$
 求解矩阵的和需要求A和B两个矩阵具有相同的行和列，然后将相同行列的数 $a_{ij}$ 与 $b_{ij}$ 进行相加减，并且输入另一个矩阵数组  $c_{ij}$ 。
 
 ## 矩阵乘法
-需要使AB满足 $m\times n$ 的矩阵  $\textbf{A}$，$n\times k$ 的矩阵 $\textbf{B}$（即乘法前面矩阵列数等于后者行数），将结果输入新的矩阵addMatrix中。$addMatrix_{ij}$ 为 $a_{ij}$ 与 $b_{ji}$ 乘积。
+需要使AB满足 $m\times n$ 的矩阵  $\textbf{A}$，$n\times k$ 的矩阵 $\textbf{B}$（即乘法前面矩阵列数等于后者行数），将结果输入新的矩阵C中。$C_{ij}$ 为 $a_{ij}$ 与 $b_{ji}$ 乘积。
 
 ## 矩阵数乘
 将k与矩阵每个元素进行相乘即可。
