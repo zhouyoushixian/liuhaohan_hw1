@@ -2,7 +2,7 @@
  * @Author: test 3402502077@qq.com
  * @Date: 2024-05-08 23:31:33
  * @LastEditors: test 3402502077@qq.com
- * @LastEditTime: 2024-05-13 14:18:50
+ * @LastEditTime: 2024-05-13 14:20:05
  * @FilePath: \liuhaohan_hw1\doc\thinking.md
  * @Description: 这是默认设置,请设置`customMade`, 打开koroFileHeader查看配置 进行设置: https://github.com/OBKoro1/koro1FileHeader/wiki/%E9%85%8D%E7%BD%AE
 -->
@@ -41,10 +41,11 @@ $$ a^*\_{ij}=(-1)^{i+j}|\textbf{A}_{ji}| $$
 因此只需要构造出伴随矩阵，即可完成求逆运算。
 
 **注释** *在建设过程中，根据行或者列进行展开结果精确度可能不同例如*
+
 $$
 \begin{vmatrix}
-1.2 & 1.4 & 3.5\\
-2.6 & 3.7 & 4.9\\
+1.2 & 1.4 & 3.5 \\
+2.6 & 3.7 & 4.9 \\
 2.1 & 3.2 & 5.9
 \end{vmatrix}
 =2.23(行)||2.24(列);
