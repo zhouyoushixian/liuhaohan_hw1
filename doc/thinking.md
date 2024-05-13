@@ -2,7 +2,7 @@
  * @Author: test 3402502077@qq.com
  * @Date: 2024-05-08 23:31:33
  * @LastEditors: test 3402502077@qq.com
- * @LastEditTime: 2024-05-13 14:16:47
+ * @LastEditTime: 2024-05-13 14:18:50
  * @FilePath: \liuhaohan_hw1\doc\thinking.md
  * @Description: 这是默认设置,请设置`customMade`, 打开koroFileHeader查看配置 进行设置: https://github.com/OBKoro1/koro1FileHeader/wiki/%E9%85%8D%E7%BD%AE
 -->
@@ -48,6 +48,7 @@ $$
 2.1 & 3.2 & 5.9
 \end{vmatrix}
 =2.23(行)||2.24(列);
+$$
 ## 秩的求解
 求解矩阵的秩可以通过高斯消元法转化为上三角矩阵的过程来实现。对于 $m\times n$ 的矩阵 $\textbf{A}$ ，求 $\text{rank}(\textbf{A})$ 的具体步骤为：
 
@@ -74,7 +75,7 @@ $$
 $$ R_j=R_j-\dfrac{a_{ji}}{a_{ii}}\times R_i $$
 
 **注释** *1、个人感觉第一步定义rank与否并不重要*
-         *2、思路为以上，但是在化简到上三角矩阵后利用若  $a_{ii}$ 不为0则rank+1*
+         *2、思路为以上，但是在化简到上三角矩阵后利用若*  $a_{ii}$  *不为0则rank+1*
 
 ## 矩阵求和和求差
 求解矩阵的和需要求A和B两个矩阵具有相同的行和列，然后将相同行列的数 $a_{ij}$ 与 $b_{ij}$ 进行相加减，并且输入另一个矩阵数组  $c_{ij}$ 。
